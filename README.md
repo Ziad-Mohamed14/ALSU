@@ -75,7 +75,6 @@ The testbench `ALSU_tb.v` is designed to verify the functionality of the Arithme
 
 - `ALSU.v`: Parameterized ALSU (registered inputs, op map, bypass & invalid guard).
 - `ALSU_tb.v`: Self-checking testbench with randomized scenarios.
-- `SPI_SLAVE_WITH_SINGLE_PORT_RAM.v:` Top-level wrapper that instantiates the SPI and RAM modules and connects them via control and data signals.
 - `run_ALSU.do:` Simulation automation script (compile + run + wave add).
 - `ALSU Constraints_basys3.xdc:` Pin constraints + ILA debug core hookups (ready to drop into Vivado).
 
