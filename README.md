@@ -53,7 +53,7 @@ Alternatively, manually compile all Verilog source files and run the simulation 
 
 **3. Testbench Usage**
 
-The testbench `ALSU_tb.v` is designed to verify the communication, command handling, and memory interaction between the SPI interface and the Single-Port RAM.
+The testbench `ALSU_tb.v` is designed to verify the functionality of the Arithmetic Logic and Shift Unit (ALSU), ensuring correct execution of arithmetic, logical, and shift operations under various input conditions.
 
 **Key Features:**
 - Clock & reset:
