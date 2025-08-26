@@ -1,5 +1,5 @@
 
-# ALSU
+# ALSU - Arithmetic Logic and Shift Unit
 
 This project implements a parameterized **Arithmetic Logic and Shift Unit (ALSU)** on FPGA, supporting a variety of logical, arithmetic, and shift/rotate operations. The design features configurable operation modes, reduction operators, bypass paths, and invalid operation detection with LED indication. It is developed in Verilog, verified through a self-checking testbench, and deployable on the Basys3 FPGA board using the provided `.xdc` constraints file.
 
